@@ -40,7 +40,7 @@ const teamMembers = [
         } 
     },
     { 
-        name: 'Bharagava KK', 
+        name: 'Bhargava KK', 
         role: 'Technical Lead', 
         image: 'Photos/Bhargava.jpg',
         description:'1RR21CS026',
@@ -71,7 +71,7 @@ const teamMembers = [
     },
     { 
         name: 'Eshan Iqbal', 
-        role: 'Technical Lead Associate', 
+        role: 'Technical Associate', 
         image: 'Photos/Eshan.jpg',
         description:'1RR21CS053',
         actions: { 
@@ -91,7 +91,7 @@ const teamMembers = [
     },
     { 
         name: 'Harshitha H Rao', 
-        role: 'Marketing Associate', 
+        role: 'Marketing Lead', 
         image: 'Photos/Rao.jpg',
         description:'1RR21CS063',
         actions: { 
