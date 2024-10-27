@@ -102,7 +102,7 @@ const teamMembers = [
     { 
         name: 'Harshitha A D', 
         role: 'Design Associate', 
-        image: 'IMG_4400.jpg',
+        image: 'Photos/AD.jpg',
         description:'1RR21CS059',
         actions: { 
             linkedin: 'https://www.linkedin.com/in/harshitha-ad-57274b262 ', 
