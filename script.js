@@ -3,7 +3,7 @@ const teamMembers = [
         name: 'Usha S', 
         role: 'Faculty Co-oridinator', 
         image: 'Photos/Usha.png',
-        description:'',
+        description:'Dean - R&D',
         actions: { 
             linkedin: 'https://www.linkedin.com/in/dr-usha-sakthivel-58b4709 ', 
                
