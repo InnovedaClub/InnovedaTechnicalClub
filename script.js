@@ -9,6 +9,21 @@ const teamMembers = [
                
         } 
     },
+
+    { 
+        name: 'Unknown', 
+        role: 'Faculty Co-oridinator', 
+        image: '',
+        description:'',
+        actions: { 
+            linkedin: ' ', 
+               
+        } 
+    },
+
+
+
+    
     { 
         name: 'Chethan K', 
         role: 'Lead', 
