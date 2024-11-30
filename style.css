@@ -33,8 +33,8 @@ header {
 }
 #nav-links>a:hover{
     background-color: #0a34a0 ;
-    transition: all 0.4s ease;
-    border-radius: 5px;
+    
+    border-radius: 50px;
     color: white;
     border-bottom: 1px solid yellow;
 
@@ -469,15 +469,40 @@ footer {
 
 .show-more-btn {
     background-color: #12296c; /* Button background color */
-    color: white; /* Button text color */
-    border: none; /* Remove default border */
-    padding: 10px 20px; /* Padding for button */
-     /* Rounded corners */
-    cursor: pointer; /* Pointer cursor on hover */
+
+        display: flex;
+        width: 100px;
+        height: 50px;
+        border-radius: 50px;
+        background-color: black;
+        text-decoration: none;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        color: white;
+        position: relative;
+    
+    
+}
+.show-more-btn::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom right ,rgb(0, 162, 255),rgb(0, 55, 128));
+    z-index: -1;
+    position: absolute;
+    border-radius: 50px;
 }
 
 .show-more-btn:hover {
-    background-color: #fbda03; /* Change background color on hover */
+    z-index: 1; /* Keep above other elements */
+    transform: scale(1.1); /* Slight enlargement for hover feedback */
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.7)
+               
+               ; /* Multi-layered glow */
+    color: rgb(2, 2, 2); /* Change text color on hover */
+    background-color: black; /* Optional: Dark background for contrast */
+    transition: all 0.3s ease; /* Smooth effect */
 }
 /* Card styling */
 .team-member {
@@ -494,6 +519,7 @@ footer {
 
 .team-member:hover {
     transform: translateY(-5px);
+    box-shadow: 20px 20px 8px rgba(0, 0, 0, 0.1);
 }
 
 .team-member img {
@@ -537,7 +563,7 @@ footer {
 }
 
 .show-more-btn {
-    width: 100%;
+    width: 50%;
     max-width: 200px;
     padding: 10px;
     margin-top: 20px;
@@ -551,11 +577,7 @@ footer {
     transition: background-color 0.3s ease;
 }
 
-.show-more-btn:hover {
-    color: crimson;
-    transition: all 0.4s ease;
-box-shadow: 10px 10px black;
-}
+
 /* till this clear and chexked
  */
 /* Container and layout settings */
