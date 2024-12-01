@@ -11,7 +11,7 @@ const teamMembers = [
     },
 
     { 
-        name: 'Unknown', 
+        name: 'Dr.M Karuppasamy', 
         role: 'Faculty Co-oridinator', 
         image: '',
         description:'',
